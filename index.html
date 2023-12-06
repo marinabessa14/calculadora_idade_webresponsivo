@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+  <title>Calculadora de Idade</title>
+  <link rel="shortcut icon" href="img/icon-idade.png" type="image/x-icon">
+</head>
+<body>
+ <div class="card">
+  <div class="container">
+    <form>
+      <div class="form_container">
+          <div class="block">
+        <label for="dia">
+          Dia
+        </label>
+        <input type="number" placeholder="DD" id="dia">
+        <small></small>
+      </div>
+      <div class="block">
+        <label for="mes">
+          Mês
+        </label>
+        <input type="number" placeholder="MM" id="mes">
+        <small></small>
+      </div>
+      <div class="block">
+        <label for="ano">
+          Ano
+        </label>
+        <input type="number" placeholder="AAAA" id="ano">
+        <small></small>
+      </div>
+      </div>
+      <div class="submit_block">
+        <hr>
+        <button type="submit" class="sumbit_btn"><img src="img/icon-submit.png" alt="icon"></button>
+      </div>
+    </form>
+    <div class="output">
+      <h1><span id="AA">--</span>anos</h1>
+      <h1><span id="MM">--</span>mês</h1>
+      <h1><span id="DD">--</span>dias</h1>
+    </div>
+  </div>
+ </div>
+</body>
+</html>
